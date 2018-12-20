@@ -1,24 +1,17 @@
 # TinyCar
 
-This code was designed to drive a car made from a TI-RSLK Maze Edition:
-https://university.ti.com/en/faculty/ti-robotics-system-learning-kit/ti-robotics-system-learning-kit
-The car drives down a track made from a black line about 1 cm wide, until it encounters a perpendicular finish line. The bump switches included in the kit were not used.
+This code was designed to drive a car made from a [TI-RSLK Maze Edition](https://university.ti.com/en/faculty/ti-robotics-system-learning-kit/ti-robotics-system-learning-kit). The car drives down a track made from a black line about 1 cm wide, until it encounters a perpendicular finish line. The bump switches included in the kit were not used.
 
 ## Prerequisites
 
-Get the kit linked above, and follow the assembly guide here (other than the part with the bump switches):
-http://www.ti.com/lit/ml/swrp249/swrp249.pdf
+Get the kit linked above, and follow the [assembly guide](http://www.ti.com/lit/ml/swrp249/swrp249.pdf) (other than the part with the bump switches).
 
-Download and install Energia, an Arduino IDE variant for the TI platform. Energia must be installed in a path without spaces.
-http://energia.nu/download/
-
-Make sure to also install the Energia driver package. The link below is a broad Energia guide, and at the top there are links to what the page states are installation instructions for Energia. These are actually links to the information you need to install the drivers. Choose your operating system and install. 
-http://energia.nu/guide/
+Download and install [Energia](http://energia.nu/download/), an Arduino IDE variant for the TI platform. Energia must be installed in a path without spaces.
 
 Once Energia is installed, launch it and to install board files for the MSP432 Board as follows:
 1. Go to Tools > Board > Boards Manager
 2. Click Energia MSP432 EMT RED Boards and select Install
-3. If you’re on a Windows machine, install the MSP-EXP432P401R drivers (http://energia.nu/guide/install/windows/)
+3. Install the MSP-EXP432P401R drivers (choose your operating system at [this link](http://energia.nu/guide/))
 4. Restart Energia
 5. You should be able to now select RED Launchpad under Tools > Board
 
