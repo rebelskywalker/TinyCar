@@ -31,7 +31,7 @@ To use this code as is:
 ## Authors
 
 * Zefyr Scott ([combobulate](https://github.com/combobulate))
-* Chris Baker
+* Chris Baker ([rebelskywalker](https://github.com/rebelskywalker))
 
 ## Acknowledgements
 
